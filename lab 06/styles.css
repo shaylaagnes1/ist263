@@ -5,3 +5,5 @@ h1,h2 {color:aquamarine}
 .evenrow{background-color:blueviolet}
 .oddrow{ background-color:blue}
 table, th, td {border: 1px solid black;}
+h1 {font-size: 5em;}
+h2 {font-size: 2em;}

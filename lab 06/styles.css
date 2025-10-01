@@ -1,0 +1,7 @@
+
+
+body {font-family: 'Trebuchet MS', sans-serif;}
+h1,h2 {color:aquamarine}
+.evenrow{color:blueviolet}
+.oddrow{color:blue}
+table, th, td {border: 1px solid black;}

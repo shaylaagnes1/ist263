@@ -1,0 +1,18 @@
+
+
+body {background-color: #ffd9da;}
+text {color:#89023e}
+h1,h2{Color:#ea638c}
+a {
+  color: #8A2846;
+}
+
+a:hover {
+  color: #6C1F38;
+}
+nav { background-color: #8A2846; padding: 10px; 
+  margin-bottom: 30px;       
+  text-align: center;
+}
+nav a:hover{background-color:ff7aa2 ;}
+

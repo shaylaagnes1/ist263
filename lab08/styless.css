@@ -107,3 +107,93 @@ a {
   color: #8A2846;
 }
 
+body {
+  font-family: 'Trebuchet MS', sans-serif
+  margin 20px;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+h1 {
+  text-align: center; 
+}
+
+p.intro {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto 30px auto;
+}
+
+
+.flexbox2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons-section {
+  flex: 3; 
+}
+
+aside {
+  flex: 1; 
+  background-color: #f1f1f1;
+  border-radius: 15px;
+  padding: 15px;
+  margin-left: 20px;
+}
+
+
+.skills-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.skill {
+  flex-basis: 18%; 
+  margin-bottom: 20px;
+}
+
+.skill i {
+  font-size: 50px;
+  width: 60px;
+  height: 60px;
+  color: #444;
+}
+
+.skill-name {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+aside h2 {
+  text-align: center;
+}
+
+aside ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+aside li {
+  padding: 5px 0;
+}
+nav {
+  text-align: left;       
+  background-color: #f1f1f1;
+  border: 2px solid #ccc;    
+  border-radius: 10px;      
+  padding: 10px 20px;       
+  width: 100%;        
+  margin: 10px 0 30px 0;      
+}
+
+

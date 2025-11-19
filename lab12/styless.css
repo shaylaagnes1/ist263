@@ -1,0 +1,7 @@
+#bigimages img { display: none; }
+#planetinfo > div { display: none; }
+
+#mercury,
+#mercuryinfo {
+    display: block;
+}

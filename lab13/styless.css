@@ -213,7 +213,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-  background-color: #ffe0e9;
+  background-color: #00008B;
   color: #89023e;
 }
 

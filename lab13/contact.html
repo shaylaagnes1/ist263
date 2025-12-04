@@ -40,37 +40,41 @@
     <section class="row row2">
       <div class="column form-box">
         <h2>Send Me a Message</h2>
-        <form action="https://formspree.io/f/mandgvoa" method="post">
+      <form action="https://formspree.io/f/mandgvoa" method="post">
 
-          <label for="fname">First name:</label><br>
-          <input type="text" id="fname" name="fname"><br>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
 
-          <label for="lname">Last name:</label><br>
-          <input type="text" id="lname" name="lname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
 
-          <p>Choose your favorite color:</p>
+  <fieldset>
+    <legend>Choose your favorite color:</legend>
 
-          <input type="radio" id="Yellow" name="fav_color" value="Yellow">
-          <label for="Yellow">Yellow</label><br>
+    <input type="radio" id="Yellow" name="fav_color" value="Yellow">
+    <label for="Yellow">Yellow</label><br>
 
-          <input type="radio" id="Pink" name="fav_color" value="Pink">
-          <label for="Pink">Pink</label><br>
+    <input type="radio" id="Pink" name="fav_color" value="Pink">
+    <label for="Pink">Pink</label><br>
+  </fieldset>
 
-          <p>What is the best way to contact you?</p>
+  <fieldset>
+    <legend>What is the best way to contact you?</legend>
 
-          <input type="checkbox" id="contact1" name="contact1" value="Text">
-          <label for="contact1">Text</label><br>
+    <input type="checkbox" id="contact1" name="contact1" value="Text">
+    <label for="contact1">Text</label><br>
 
-          <input type="checkbox" id="contact2" name="contact2" value="Email">
-          <label for="contact2">Email</label><br>
+    <input type="checkbox" id="contact2" name="contact2" value="Email">
+    <label for="contact2">Email</label><br>
+  </fieldset>
 
-          <label for="eventinfo">Tell Me More About Your Event:</label><br>
-          <textarea id="eventinfo" name="eventinfo" rows="4" cols="50"></textarea>
+  <label for="eventinfo">Tell Me More About Your Event:</label><br>
+  <textarea id="eventinfo" name="eventinfo" rows="4" cols="50"></textarea>
 
-          <br><br>
+  <br><br>
 
-          <input type="submit" value="Submit">
-        </form>
+  <input type="submit" value="Submit">
+</form>
       </div>
 
       <div class="column map-box">

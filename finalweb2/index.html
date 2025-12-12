@@ -3,17 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Shaya Ismael- Shoots</title>
-    <link rel="stylesheet" href="styless.css">
-    <link rel="icon" href="favicon.ico" type="image/png">
+    <title>Shaya Ismael - Shoots</title>
 
+    <!-- Load Big Shoulders Inline (only on this page) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styless.css">
+    <link rel="icon" href="favicon.ico">
   </head>
+
   <body>
-<nav>
-  <a href="index.html">Home</a> <span>|</span>
-  <a href="skills.html">Gallery</a> <span>|</span>
-  <a href="aboutme.html">About</a> <span>|</span>
-</nav>
+    <nav>
+      <a href="index.html">Home</a> <span>|</span>
+      <a href="skills.html">Gallery</a> <span>|</span>
+      <a href="aboutme.html">About</a> <span>|</span>
+    </nav>
 
 <style>
    body {
@@ -22,39 +28,36 @@
      color: #060003;
    }
 
-
    .section {
      display: flex;
      align-items: center;
      justify-content: center;
      padding: 60px;
-     gap: 40px; 
+     gap: 40px;
    }
-
 
    .text {
      flex: 1;
    }
 
-
+   /* ⭐ Only this page changes the H1 font */
    .text h1 {
      color: #060003;
-     font-size: 2.5em;
+     font-size: 2.8em;
      margin-bottom: 15px;
+     font-family: 'Big Shoulders Inline', sans-serif;
+     letter-spacing: 1px;
    }
-
 
    .text p {
      font-size: 1.1em;
      line-height: 1.6;
    }
 
-
    .image {
      flex: 1;
      text-align: right;
    }
-
 
    .image img {
      max-width: 100%;
@@ -63,47 +66,36 @@
      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
    }
 
-
-
-
    @media (max-width: 768px) {
      .section {
        flex-direction: column;
        text-align: center;
      }
 
-
      .image {
        text-align: center;
      }
    }
- </style>
+</style>
 
 <header>
   <img src="websitepics/homebanner.jpg" alt="Banner" class="banner-img">
 </header>
-    
-  
 
+<section class="section">
+  <div class="text">
+    <h1>Translating ideas into imagery</h1>
+    <p>Step into my world of visual storytelling — where each shoot reflects my eye for detail, direction, and emotion.</p>
+  </div>
 
-  <section class="section">
-    <div class="text">
-      <h1>Translating ideas into imagery </h1>
-      <p>
-Step into my world of visual storytelling — where each shoot reflects my eye for detail, direction, and emotion.      <p>      </p>
-    </div>
-
-    <div class="image">
-   <img src="websitepics/locker.jpg" alt="Image">
-    </div>
-  </section>
-
-</body>
-
+  <div class="image">
+    <img src="websitepics/locker.jpg" alt="Image">
+  </div>
+</section>
 
 <footer>
-    <p class="copyright">© 2025 Shayla Ismael</p>
-  </footer>
-  
+  <p class="copyright">© 2025 Shayla Ismael</p>
+</footer>
 
+</body>
 </html>

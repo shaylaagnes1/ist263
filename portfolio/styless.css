@@ -306,3 +306,24 @@ form button[type="submit"]:hover {
 .responsibilities li {
   margin-bottom: 10px;
 }
+.ugirl-link {
+  text-align: center;
+  margin: 20px 0 35px;
+}
+
+.ugirl-link a {
+  display: inline-block;
+  padding: 12px 26px;
+  border: 2px solid #1a73e8;
+  color: #1a73e8;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.ugirl-link a:hover {
+  background-color: #1a73e8;
+  color: #ffffff;
+}

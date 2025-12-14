@@ -212,7 +212,7 @@ form button[type="submit"] {
   border-radius: 5px;
   border: none;
   background-color: #f5cdd9;
-  color: rgb(154, 126, 126);
+  color: rgb(0, 0, 0);
   cursor: pointer;
 }
 
